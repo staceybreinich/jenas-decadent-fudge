@@ -692,7 +692,7 @@ a {
     align-items: center;
   }
   .cart-container {
-    width: 250px;
+    width: 100%;
   }
   .cart-icon {
     float: none;
