@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="container">
       <h1>About Jena</h1>
-      <p>Testing again</p>
+      <p>This is crazy I hate git and github mang!</p>
     </div>
   );
 };
