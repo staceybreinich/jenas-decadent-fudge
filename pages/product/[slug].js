@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import {
-  AiOutlineMinus,
-  AiOutlinePlus,
-  AiFillStar,
-  AiOutlineStar,
-} from "react-icons/ai";
+import { AiOutlineMinus, AiOutlinePlus, AiFillStar } from "react-icons/ai";
 
 import { client, urlFor } from "../../lib/client";
 import { Product } from "../../components";
@@ -56,9 +51,9 @@ const ProductDetails = ({ product, products }) => {
                     <AiFillStar />
                     <AiFillStar />
                     <AiFillStar />
-                    <AiOutlineStar />
+                    <AiFillStar />
                   </div>
-                  <p>(20)</p>
+                  {/* <p>(20)</p> */}
                 </div>
                 <h4>Details: </h4>
                 <p>{details}</p>

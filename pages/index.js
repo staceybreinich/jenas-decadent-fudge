@@ -12,6 +12,11 @@ const Home = ({ products, bannerData }) => {
         <p className="padding-container">
           Chocolate &amp; Peanut Butter Fudge sold by the pound
         </p>
+        <p className="padding-container">
+          NOTE: They both have peanut butter in them so if you have peanut
+          butter allergies you would <strong>NOT</strong> want to consume either
+          one!
+        </p>
       </div>
       <div className="products-container">
         {products?.map((product) => (
